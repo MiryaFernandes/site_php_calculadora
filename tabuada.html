@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pagina_inicial/header.css">
+    <link rel="stylesheet" href="./tabuada_css/styleTabuada.css">
+    <link rel="stylesheet" href="./tabuada_css/mainTabuada.css">
+    <link rel="stylesheet" href="./tabuada_css/resetTabuada.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul class="dropdwn-menu">
+                <li>
+                    <a class="pontinho">=</a>
+
+                    <ul class="dropdown-submenu">
+                        <a href="">Tabuada</a>
+                        <a href="">Media</a>
+                        <a href="">Par e ímpar</a>
+                        <a href="">Calculadora</a>
+                        <a href="">Inicio</a>
+                    </ul>
+                </li>   
+                <ul class="home">
+                    <a >TABUADA</a> 
+                </ul>    
+            </ul> 
+            
+        </nav>
+    </header>
+
+    <main>
+        
+        <div id="form">
+            <form name="frm" class="funcao" method="post">
+                <div class="Multiplicador">    Multiplicador:<input  type="text" name="txtn1" value="" ></div><br>
+                <div class="Multiplicando">    Multiplicando:<input type="text" name="txtn2" value=""  ></div><br>
+                    <div id="container_opcoes">
+                        
+                        <input type="submit" name="btncalc" value ="Calcular" >
+                        
+                    </div>	
+                    <div id="resultado">
+                    
+                    </div>
+                    
+                </form>
+        </div>
+
+    </main>
+    
+</body>
+</html>
