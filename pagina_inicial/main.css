@@ -1,19 +1,20 @@
 main{
     flex-grow: 1;
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
     padding: 0 80px;
     gap: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+
 }
 
 main .funcao{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1165px;
     color:rgb(0, 86, 88);
     text-decoration: none;
     border-radius: 1px;
@@ -23,25 +24,24 @@ main .funcao{
 
 }
 
-main a {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 1165px;
-height: 40px;
-color: rgb(0, 0, 0);
-text-decoration: none;
-border-radius: 3px;
-font-size: 2rem;
-font-family: 'PT Sans', sans-serif;
-margin-top: 40px;
+    main a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 2rem;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 40px;
+    width: 400px;
+
 }
 
 main a:hover{
     color: salmon;
     justify-content: center;
     align-items: center;
-
     border: 1.5px solid rgba(0, 0, 0, 0.349);
 }
 

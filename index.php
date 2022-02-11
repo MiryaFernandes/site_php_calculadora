@@ -18,21 +18,18 @@
     <header>
         <nav class="menu">
             <ul class="dropdown-menu">                
-                <li>
-                  
-                    <a class="pontinho" >=</a>
+                <li>                  
+                    <a class="pontinho" >≡</a>
                   
                     <ul class="dropdown-submenu">
-                        <a href="">Tabuada</a>
-                        <a href="">Media</a>
-                        <a href="">Par e ímpar</a>
-                        <a href="">Calculadora</a>
-                        <a href="">Inicio</a>
+                        <a id="list" href="http://localhost/maria/site_php_tabuada/tabuada.php">Tabuada</a>
+                        <a id="list" href="">Media</a>
+                        <a id="list" href="">Par e ímpar</a>
+                        <a id="list" href="">Calculadora</a>
+                        <a id="list" href="http://localhost/maria/site_php_calculadora/">Inicio</a>
                     </ul>
                 </li>   
-                <ul class="home">
-                    <a >HOME</a> 
-                </ul>    
+                <div class="home"><h1>Home</h1></div>   
             </ul>  
        
         </nav>
@@ -40,7 +37,7 @@
     <main>
             <h2 class="funcao">Qual função vai utilizar hoje?</h2>
                 
-                <a href="" class="Tabuada"><h3>Tabuada</h3></a>                
+                <a href="http://localhost/maria/site_php_tabuada/tabuada.php" class="Tabuada"><h3>Tabuada</h3></a>                
                 <a href="" class="media"><h3>Média</h3></a> 
                 <a href="" class="par-impar"><h3>Par e Ímpar</h3></a> 
                 <a href="" class="Calculadora"><h3>Calculadora</h3></a>

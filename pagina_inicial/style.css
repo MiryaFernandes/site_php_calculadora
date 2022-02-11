@@ -2,7 +2,6 @@ body {
     width: 90vw;
     height: 100vh;
     background-image: url(../img/fundo.png);
-    background-color: rgba(0, 0, 0, 0.219);
     background-size: cover;
     background-position: right top;
     background-blend-mode: darken;
